@@ -15,8 +15,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/pages/*": ["pages/*"]
+      "@/components/*": ["src/components/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/layouts/*": ["src/layouts/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
